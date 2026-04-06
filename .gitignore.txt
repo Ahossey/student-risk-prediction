@@ -1,0 +1,20 @@
+# data files — too large for GitHub
+data/raw/
+data/processed/
+
+# model files — too large for GitHub
+models/
+
+# python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# environment files
+.env
+*.pkl
+
+# system files
+.DS_Store
+Thumbs.db
