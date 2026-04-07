@@ -89,25 +89,7 @@ https://archive.uci.edu/dataset/320/student+performance
 
 ## Project Structure
 
-student_risk_project/
-|
-|-- data/
-|   |-- raw/                          Original unmodified source data
-|   -- processed/                    Cleaned and engineered datasets | |-- notebooks/ |   |-- 01_data_acquisition.ipynb     Load, inspect, and validate raw data |   |-- 02_data_cleaning.ipynb        Encode, scale, and remove leakage |   |-- 03_eda.ipynb                  Visual and statistical exploration |   |-- 04_feature_engineering.ipynb  Create and validate 9 new features |   |-- 05_modelling.ipynb            Train, tune, and evaluate 5 models |   -- 06_explainability.ipynb       SHAP analysis and fairness audit
-|
-|-- models/
-|   |-- lgbm_final.pkl                Trained LightGBM model
-|   |-- scaler.pkl                    Fitted StandardScaler
-|   -- feature_names.pkl             Ordered feature list for deployment | |-- reports/ |   -- research_report.md            Graduate-style research report
-|
-|-- visuals/                          All charts generated during analysis
-|
-|-- readme_visuals/                   Visual assets for this README
-|
-|-- app/
-|   -- app.py                        Streamlit web application | |-- README.md -- requirements.txt
-
-
+![Project Structure](readme_visuals/project_structure.png)
 
 
 ---
@@ -368,11 +350,11 @@ https://archive.uci.edu/dataset/320/student+performance
 
 ## Author
 
-**Your Full Name**
+**Ahossey Paul**
 
 GitHub: https://github.com/Ahossey  
-LinkedIn: https://linkedin.com/in/yourprofile  
-Email: your.email@gmail.com
+LinkedIn: https://www.linkedin.com/in/paulahossey/  
+Email: paulahossey0@gmail.com
 
 ---
 
